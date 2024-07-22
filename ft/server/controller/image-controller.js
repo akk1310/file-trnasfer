@@ -9,7 +9,7 @@ export const uploadImage = async (request,response)=>{
     }
     try {
         const file = await File.create(fileObj);
-        response.status(200).json({path: `https://filetransfer-backend-tklk.onrender.com/file/${file._id}`})
+        response.status(200).json({path: `https://file-trnasfer-backend10.onrender.com/file/${file._id}`})
         
     } catch (error) {
         console.error(error.message)
