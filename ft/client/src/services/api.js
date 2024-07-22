@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://filetransfer-backend-tklk.onrender.com'
+const API_URL = 'https://file-trnasfer-backend10.onrender.com'
 
 export const uploadFile = async (data)=>{
     try {
