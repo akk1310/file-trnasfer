@@ -48,7 +48,7 @@ function App() {
         <img src={logo} alt="banner" />
         <div className='wrapper'>
           <h1>File Connect</h1>
-          <p>Share Smarter with File Connect</p>
+          <p className='tagline'>Share Smarter with File Connect</p>
           <button onClick={()=> onUploadClick()}>Upload</button>
           <input type="file" ref={fileInputRef} style={{display:'none'}} onChange={(e)=> setFile(e.target.files[0])}  />
           
