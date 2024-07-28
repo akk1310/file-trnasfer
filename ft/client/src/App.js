@@ -1,6 +1,7 @@
 import {useRef,useState,useEffect} from 'react';
 import './App.css';
 import {uploadFile} from './services/api';
+import IMAGES from './Images/index.js';
 
 function App() {
   const [file, setFile] = useState('')
@@ -44,7 +45,7 @@ function App() {
   console.log(file);
 
   return (
-    <div className='container'>
+    <div className='container' style={{ backgroundImage: `url(${IMAGES.img5})` }}>
         <img src={logo} alt="banner" />
         <div className='wrapper'>
           <h1>File Connect</h1>
