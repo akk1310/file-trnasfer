@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className='container' style={{ backgroundImage: `url(${IMAGES.img5})` }}>
-        // <img src={logo} alt="banner" />
+        
         <div className='wrapper'>
           <h1>File Connect</h1>
           <p className='tagline'>Share Smarter with File Connect</p>
